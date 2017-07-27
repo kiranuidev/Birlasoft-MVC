@@ -26,5 +26,10 @@ namespace BMart.com.Controllers
 
             return View();
         }
+
+        public ActionResult TryNew()
+        {
+            return View();
+        }
     }
 }

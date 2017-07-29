@@ -1,0 +1,38 @@
+﻿
+@{
+    
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List</h2>
+
+<table class="table table-bordered">
+    
+    @foreach (var x in ViewData["CourseList"] as List<BMart.com.Models.Course>)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.Name</td>
+            <td>@x.Category</td>
+            
+
+        </tr>
+    }
+</table>
+
+<table class="table table-bordered">
+
+    @foreach (var x in ViewBag.CourseList as List<BMart.com.Models.Course>)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.Name</td>
+            <td>@x.Category</td>
+
+
+        </tr>
+    }
+</table>
+
+@Html.ActionLink("Go To Index", "Index", "Course");

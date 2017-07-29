@@ -17,9 +17,22 @@ namespace BMart.com.Controllers
         {
             var course = new Course();
             //throw new Exception();
+            var data = ViewData["CourseList"];
+            var temp = TempData["CourseListTemp"];
+            TempData.Keep();
             return View(course);
         }
 
+        public ActionResult List()
+        {
+            var course = new Course();
+            ViewData["CourseList"] = course.GetCourses();
+            ViewBag.CourseList = course.GetCourses();
+            TempData["CourseListTemp"] = course.GetCourses();
+            return View();
+        }
+
+        
         
         public ActionResult Edit()
         {
@@ -27,7 +40,8 @@ namespace BMart.com.Controllers
             //course.Id = 1;
             //course.Name = "Angular";
             //course.Category = "Software";
-
+            var temp = TempData["CourseListTemp"];
+            
             return View();
 
         }

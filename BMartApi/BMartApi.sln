@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMartApi", "BMartApi\BMartApi.csproj", "{194C40DD-F71C-44DC-980C-0158DBA2A6E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMartApi.Tests", "BMartApi.Tests\BMartApi.Tests.csproj", "{D879AEC1-7ED0-4479-8432-A61E81DA0D36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{194C40DD-F71C-44DC-980C-0158DBA2A6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194C40DD-F71C-44DC-980C-0158DBA2A6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194C40DD-F71C-44DC-980C-0158DBA2A6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194C40DD-F71C-44DC-980C-0158DBA2A6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D879AEC1-7ED0-4479-8432-A61E81DA0D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D879AEC1-7ED0-4479-8432-A61E81DA0D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D879AEC1-7ED0-4479-8432-A61E81DA0D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D879AEC1-7ED0-4479-8432-A61E81DA0D36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -65,3 +65,9 @@ E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\bin\Microsoft.AI.Web.xml
 E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\obj\Debug\BMart.com.csprojResolveAssemblyReference.cache
 E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\obj\Debug\BMart.com.dll
 E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\obj\Debug\BMart.com.pdb
+E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\bin\System.Net.Http.Formatting.dll
+E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\bin\System.Web.Http.dll
+E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\bin\System.Web.Http.WebHost.dll
+E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\bin\System.Net.Http.Formatting.xml
+E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\bin\System.Web.Http.xml
+E:\MVC6\Birlasoft-MVC\BMart.com\BMart.com\bin\System.Web.Http.WebHost.xml

@@ -7,6 +7,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@Html.ActionLink("Download File", "DownloadFile","Course");
 <table class="table table-hover">
     <thead>
         <th>Index</th>
@@ -15,12 +16,13 @@
 
     </thead>
     <tbody>
-@foreach (var item in Model.GetCourses())
+@foreach (var course in Model.GetCourses())
 {
         <tr>
-            <td>@item.Id</td>
-            <td>@item.Category</td>
-            <td>@item.Name</td>
+            <td>@course.Id</td>
+            <td>@course.Category</td>
+            <td>@course.Name</td>
+            <td>@Html.ActionLink("Edit","Edit", course)</td>
         </tr>
 }
     </tbody>

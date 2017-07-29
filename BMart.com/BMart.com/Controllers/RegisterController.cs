@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BMart.com.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,5 +15,23 @@ namespace BMart.com.Controllers
             ViewBag.PageTitle = "Registration";
             return View();
         }
+
+        public ActionResult Index()
+        {
+            var register = new Register();
+            register.SelectedCountry = "IN";
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Register(Register register)
+        {
+            if (ModelState.IsValid)
+            {
+                return View("Index");
+            }
+            return View();
+        }
     }
+
 }
